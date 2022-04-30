@@ -34,6 +34,10 @@ Options:
 --cuda             Use CUDA
 ```
 
+![Perplexity changing over the 2000 epochs](Figure_1.png)
+
+This graph shows how the perplexity (y-Axes) changed over the training epochs (x-Axes).
+
 ## Generation
 
 Run `generate.py` with the saved model from training, and a "priming string" to start the text with.
